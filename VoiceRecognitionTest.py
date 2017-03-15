@@ -14,7 +14,7 @@ led = mraa.Gpio(13)
 led.dir(mraa.DIR_OUT)
 
 
-print("Starting")
+print("Initializing")
 while 1:
 		#PocketSphinx parameters
 		LMD   = "/home/root/vcreg/1505.lm"
